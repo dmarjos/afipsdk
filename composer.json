@@ -1,0 +1,22 @@
+{
+    "name": "csgsys/afipsdk",
+    "description": "Libreria para usar los Web Services de AFIP (Argentina) / Library to use the AFIP Web Services (Argentina)",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Csgsys\\Afipsdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Marjos",
+            "email": "dmarjos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "koshkil/network": "~1.0"
+    }
+}
