@@ -3,6 +3,7 @@
     "description": "Libreria para usar los Web Services de AFIP (Argentina) / Library to use the AFIP Web Services (Argentina)",
     "type": "library",
     "license": "GPL-3.0-or-later",
+    "version":"1.0.1",
     "autoload": {
         "psr-4": {
             "Csgsys\\Afipsdk\\": "src/"
